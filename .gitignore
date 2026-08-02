@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+tmp/
+*.log
+.DS_Store
+*.sqlite
+*.sqlite-journal
+data/*.sqlite
+data/*.sqlite-journal
+data/jobmatch.sqlite*
