@@ -131,10 +131,11 @@ export const ASK_SEARCH_MESSAGE = [
 ].join("\n");
 
 export const IDLE_HINT_MESSAGE = [
-  "Halo! Bot ini untuk cari <b>job match dari CV / keyword</b>.",
-  "Pesan tadi di luar alur — tidak masalah.",
+  "Halo jobseeker!",
+  "Bot ini bantu cari lowongan yang cocok dengan CV kamu!",
   "",
-  "Mulai: /match · /search · /help",
+  "Pesan tadi di luar alur — no worries.",
+  "Yuk mulai: /match · /search · /help",
   BRANDING_FOOTER,
 ].join("\n");
 
