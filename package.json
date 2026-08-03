@@ -1,0 +1,27 @@
+{
+  "name": "jobmatch-helper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Telegram bot: CV/job matching via Adzuna, manual search, and match alerts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^17.4.2",
+    "grammy": "^1.45.1",
+    "pdf-parse": "^2.4.5",
+    "tsx": "^4.23.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
