@@ -1,0 +1,17 @@
+services:
+  bot:
+    build: .
+    container_name: jobmatch-helper-bot
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      TZ: Asia/Jakarta
+      DATA_DIR: /data
+      INDO_JOBS_PATH: /data/jobs-id.json
+    volumes:
+      - ./data:/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
